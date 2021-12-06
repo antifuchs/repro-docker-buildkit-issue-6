@@ -1,0 +1,6 @@
+name: ecr-race-repro
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Repro for an issue where multiple ECR repos collide on macOS
